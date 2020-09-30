@@ -54,23 +54,10 @@ xmlhttp.onreadystatechange = function() {
                         suffix: true,
                     }
                 }
-
             ],
-            // rowClick: function(e, row) { //trigger an alert message when the row is clicked
-                // alert("Row " + row.getData().id + " Clicked!!!!");
-            // },
         });
-
-        // let starredAtNodes = document.querySelector("[tabulator-field='starredAt']");
-
-        // console.log(starredAtNodes);
-        // render(starredAtNodes);
 
     }
 };
 xmlhttp.open("GET", "edges.json", true);
 xmlhttp.send();
-
-// let starredAtNodes = document.querySelector("[tabulator-field='starredAt']");
-
-// render(starredAtNodes);
