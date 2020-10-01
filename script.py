@@ -3,7 +3,7 @@ import json
 
 import os
 
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+GITHUB_TOKEN = os.environ.get("GH_TOKEN")
 
 # Select your transport with a defined url endpoint
 transport = AIOHTTPTransport(
