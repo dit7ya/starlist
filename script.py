@@ -1,4 +1,6 @@
-from gql import gql, Client, AIOHTTPTransport
+from gql import gql, Client
+from gql.transport.aiohttp import AIOHTTPTransport
+
 import json
 
 import os
