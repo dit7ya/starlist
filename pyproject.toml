@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "starlist"
+version = "0.1.0"
+description = ""
+authors = ["Mostly Void <7rat13@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+gql = {extras = ["all"], version = "3.0.0b0", allow-prereleases = true}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
